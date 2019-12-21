@@ -1,0 +1,6 @@
+framework module Pods_objc_functional_Example {
+  umbrella header "Pods-objc-functional_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

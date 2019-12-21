@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - objc-functional (0.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - objc-functional (from `../`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  objc-functional:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  objc-functional: 1d11304b333b8f8c5c0b8254277c1daa14cbdba7
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 5d357b721173524140be8a2b519c4fc154c9d14b
+
+COCOAPODS: 1.8.1

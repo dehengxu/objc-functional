@@ -1,0 +1,6 @@
+framework module objc_functional {
+  umbrella header "objc-functional-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'objc-functional_Example' do
+  pod 'objc-functional', :path => '../'
+
+  target 'objc-functional_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
